@@ -1,0 +1,14 @@
+/*PFP*/
+/*Replace <PFP> with the link for the PFP you want to replace*/
+[src*="<PFP>"] {
+    
+    object-position: 9999px;
+
+    /*Replace <ReplaceWith> with the PFP you want <PFP> to be*/
+    background-image: url(<ReplaceWith>);
+
+
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
